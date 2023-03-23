@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simple ToDo App using Javascript" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Todo</h1>
+        <img src="images/icon-sun.svg" alt="icon" />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="add">
+          <span><img src="images/icon-plus.svg" alt="icon" /></span>
+          <input type="text" placeholder="Create a new Todo..." />
+        </div>
+        <div class="t-list"></div>
+        <div class="footer">
+          <p><span>5 </span>items left</p>
+          <ul>
+            <li class="active">All</li>
+            <li>Active</li>
+            <li>Completed</li>
+          </ul>
+          <p>Clear Completed</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Drag and drop to reorder list</p>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Jalal-Aljhny">Jalal Aljhny</a>.
+      </div>
+    </footer>
+    <script defer src="main.js"></script>
+  </body>
+</html>

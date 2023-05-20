@@ -137,7 +137,7 @@ main .container .add:nth-child(1) span img {
 main .container .t-list {
   border-radius: 10px 10px 0 0;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   max-height: 470px;
 }
 main .container .t-list .todo {
@@ -198,6 +198,10 @@ main .container .t-list .todo label.done::after {
 main .container .t-list .todo p {
   color: var(--p-c);
   font-size: 18px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  max-width: 480px;
+  overflow-wrap: break-word;
 }
 main .container .footer {
   background-color: var(--box-b);

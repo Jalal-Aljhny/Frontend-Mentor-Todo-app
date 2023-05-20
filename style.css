@@ -200,7 +200,7 @@ main .container .t-list .todo p {
   font-size: 18px;
   word-wrap: break-word;
   white-space: pre-wrap;
-  max-width: 480px;
+  max-width: 95%;
   overflow-wrap: break-word;
 }
 main .container .footer {

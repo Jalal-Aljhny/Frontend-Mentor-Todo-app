@@ -119,8 +119,13 @@ function countToDo() {
 countToDo();
 //add btn
 addBtn.addEventListener("click", addToArray);
+document.body.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    addToArray();
+  }
+});
 function addToArray() {
-  if (addField != "") {
+  if (addField.value !== "") {
     let task = {
       content: addField.value,
       id: Date.now(),
